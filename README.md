@@ -73,5 +73,6 @@ To set up the development environment, you need the following steps
   2. Downlaod and install postgresSQL
 ## Running the App
   1. Run `npm install`
-  2. Run `nodemon start`
-  3. Open `localhost:3000` on your browser
+  2. Run `cp .env.example .env`
+  3. Run `nodemon start`
+  4. Open `localhost:3000` on your browser
