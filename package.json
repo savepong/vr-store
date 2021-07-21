@@ -57,6 +57,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dev": "nodemon start",
     "test": "jest",
     "eject": "react-scripts eject"
   },

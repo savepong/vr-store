@@ -62,8 +62,6 @@ class FittingRoom extends Component {
 
       <a-entity text="Favorite items"
         position="0 0 0"
-   
-
       ></a-entity>
 
       
@@ -74,12 +72,9 @@ class FittingRoom extends Component {
             src={model}
           >
           </a-asset-item>
-
-
         </a-assets>
 
         <a-entity id="model" position="-2.5 0 -3">
-
           <a-collada-model
             position="-.35 0 .55"
             rotation="0 -280 0"
@@ -125,37 +120,16 @@ class FittingRoom extends Component {
           position="2 2 -4"
         />
 
-
           <a-entity text-geometry="value: Fitting Room"
           material="color: gray"
           position="-2 4 -5"></a-entity>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <a-entity 
           text-geometry="value: Favorite items"
           position="-8 4 3"
           rotation="0 90 0"
           material="color: gray"
-
-          
           >
-          
           </a-entity>
-
-
         <a-link
           href="/#/checkout"
           title="Check Out"
@@ -165,10 +139,8 @@ class FittingRoom extends Component {
           position="-2.7 2 3.5"
           geometry="width: 10"
           rotation="0 -25 0"
-
         >
         </a-link>
-
         <a-link
           href="/#/hollywood"
           title="Hollywood"
@@ -180,13 +152,11 @@ class FittingRoom extends Component {
           geometry="width: 10"
         >
         </a-link>
-
         <a-entity
           geometry="primitive: cylinder; openEnded: true; radius: 8; height: 9;"
           color="blue"
         >
         </a-entity>
-
         <a-plane
           position="0 0 0"
           rotation="-90 0 0"
@@ -195,14 +165,9 @@ class FittingRoom extends Component {
           color="#b1a2a2"
         >
         </a-plane>
-
-
-
         <a-entity light="type: point; intensity: ; distance: 10; decay: 1"
           position="0 4 0"></a-entity>
-
         <a-entity light="type: spot; angle: 45"></a-entity>
-
 
         <a-Camera look-controls-enabled="true">
           <a-Cursor>
